@@ -46,7 +46,11 @@
               >pro</span
             >
           </a>
+          <script>
+            const toggle = () => menu.classList.toggle("hidden");
+          </script>
           <button
+            onclick="toggle()"
             data-collapse-toggle="navbar-dropdown"
             type="button"
             class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base lg:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
@@ -997,10 +1001,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script>const menu = document.getElementById('navbar-default');</script>
+
     <script>
       let swiperInstance;
 
-      // Initialize Swiper for desktop
       function initSwiper() {
         const isDesktop = window.innerWidth >= 768;
 
@@ -1021,21 +1026,17 @@
         }
       }
 
-      // Equalize slide heights
       function setEqualHeights() {
         const slides = document.querySelectorAll(".client__item");
         let maxHeight = 0;
 
-        // Reset height
         slides.forEach((slide) => (slide.style.height = "auto"));
 
-        // Find tallest slide
         slides.forEach((slide) => {
           const h = slide.offsetHeight;
           if (h > maxHeight) maxHeight = h;
         });
 
-        // Apply tallest height to all slides
         slides.forEach((slide) => (slide.style.height = maxHeight + "px"));
       }
 
