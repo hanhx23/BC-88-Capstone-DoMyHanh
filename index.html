@@ -398,7 +398,7 @@
       </div>
     </section>
     <section class="client bg-white">
-      <div class="relative z-10 max-w-7xl mx-auto px-5">
+      <div class="relative z-10 max-w-7xl mx-auto">
         <div class="client__title text-center mb-12">
           <h2
             class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-center"
@@ -410,14 +410,14 @@
           </p>
         </div>
 
-        <div class="client-swiper px-5 py-5">
+        <div class="client-swiper">
           <div class="swiper-wrapper items-stretch">
             <!-- Slide 1 -->
             <div
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   Astroship has simplified our employee management processes.
@@ -442,7 +442,7 @@
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   As a marketing professional, I love using Astroship to
@@ -469,7 +469,7 @@
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   Astroship has revolutionized the way we handle customer
@@ -494,7 +494,7 @@
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   Astroship has simplified our employee management processes.
@@ -521,7 +521,7 @@
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   Our sales team swears by Astroship's CRM capabilities. The
@@ -548,7 +548,7 @@
               class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
             >
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
               >
                 <p class="text-lg md:text-xl">
                   Astroship has been a lifesaver for our finance department. Its
@@ -571,160 +571,162 @@
               </div>
             </div>
 
-            <!-- Slide 1 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+            <div class="hidden md:flex">
+              <!-- Slide 1 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  Astroship has simplified our employee management processes.
-                  From onboarding to performance evaluations, everything is now
-                  seamlessly organized in one place. It's made my job much more
-                  manageable and enjoyable!
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_1.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">John Doe</h2>
-                    <p class="text-sm text-slate-600">CEO at TechCorp</p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    Astroship has simplified our employee management processes.
+                    From onboarding to performance evaluations, everything is
+                    now seamlessly organized in one place. It's made my job much
+                    more manageable and enjoyable!
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_1.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">John Doe</h2>
+                      <p class="text-sm text-slate-600">CEO at TechCorp</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 2 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+              <!-- Slide 2 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  As a marketing professional, I love using Astroship to
-                  streamline our marketing campaigns. The automation features
-                  and data analytics help us make data-driven decisions and
-                  optimize our business.
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_2.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">Jane Smith</h2>
-                    <p class="text-sm text-slate-600">
-                      Marketing Manager at InnovateTech
-                    </p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    As a marketing professional, I love using Astroship to
+                    streamline our marketing campaigns. The automation features
+                    and data analytics help us make data-driven decisions and
+                    optimize our business.
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_2.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">Jane Smith</h2>
+                      <p class="text-sm text-slate-600">
+                        Marketing Manager at InnovateTech
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 3 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+              <!-- Slide 3 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  Astroship has revolutionized the way we handle customer
-                  support. The ticketing system and knowledge base have
-                  significantly reduced response times, leading to happier
-                  customers. Thanks to this incredible tool.
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_3.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">Mike Johnson</h2>
-                    <p class="text-sm text-slate-600">CTO at CloudNine</p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    Astroship has revolutionized the way we handle customer
+                    support. The ticketing system and knowledge base have
+                    significantly reduced response times, leading to happier
+                    customers. Thanks to this incredible tool.
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_3.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">Mike Johnson</h2>
+                      <p class="text-sm text-slate-600">CTO at CloudNine</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 4 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+              <!-- Slide 4 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  Astroship has simplified our employee management processes.
-                  From onboarding to performance evaluations, everything is now
-                  seamlessly organized in one place. It's made my job much more
-                  manageable and enjoyable!
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_4.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">Emily Brown</h2>
-                    <p class="text-sm text-slate-600">
-                      HR Manager at ConnectCo
-                    </p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    Astroship has simplified our employee management processes.
+                    From onboarding to performance evaluations, everything is
+                    now seamlessly organized in one place. It's made my job much
+                    more manageable and enjoyable!
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_4.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">Emily Brown</h2>
+                      <p class="text-sm text-slate-600">
+                        HR Manager at ConnectCo
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 5 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+              <!-- Slide 5 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  Our sales team swears by Astroship's CRM capabilities. The
-                  lead tracking and pipeline management tools have resulted in a
-                  significant boost in sales. It's a versatile platform that has
-                  truly optimized our sales processes.
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_5.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">David Lee</h2>
-                    <p class="text-sm text-slate-600">
-                      Sales Director at Linkify
-                    </p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    Our sales team swears by Astroship's CRM capabilities. The
+                    lead tracking and pipeline management tools have resulted in
+                    a significant boost in sales. It's a versatile platform that
+                    has truly optimized our sales processes.
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_5.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">David Lee</h2>
+                      <p class="text-sm text-slate-600">
+                        Sales Director at Linkify
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- Slide 6 -->
-            <div
-              class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
-            >
+              <!-- Slide 6 -->
               <div
-                class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md snap-always shrink-0 scroll-m-5"
+                class="swiper-slide flex justify-center w-auto md:w-1/2 lg:w-1/3"
               >
-                <p class="text-lg md:text-xl">
-                  Astroship has been a lifesaver for our finance department. Its
-                  robust accounting features and automated invoicing have saved
-                  us countless hours of manual work. It's the perfect financial
-                  companion for any business!
-                </p>
-                <div class="flex items-center gap-3 mt-10">
-                  <img
-                    src="./src/Img/human_6.avif"
-                    class="w-12 h-12 rounded-full object-cover bg-slate-100"
-                  />
-                  <div>
-                    <h2 class="font-medium text-slate-800">Sarah Martinez</h2>
-                    <p class="text-sm text-slate-600">
-                      Finance Controller at MoneyMakers
-                    </p>
+                <div
+                  class="client__item flex flex-col justify-between rounded-2xl p-8 bg-gray-50/60 backdrop-blur-md ring-1 ring-gray-200/50 shadow hover:shadow-lg max-w-md lg:max-w-full snap-always shrink-0 scroll-m-5"
+                >
+                  <p class="text-lg md:text-xl">
+                    Astroship has been a lifesaver for our finance department.
+                    Its robust accounting features and automated invoicing have
+                    saved us countless hours of manual work. It's the perfect
+                    financial companion for any business!
+                  </p>
+                  <div class="flex items-center gap-3 mt-10">
+                    <img
+                      src="./src/Img/human_6.avif"
+                      class="w-12 h-12 rounded-full object-cover bg-slate-100"
+                    />
+                    <div>
+                      <h2 class="font-medium text-slate-800">Sarah Martinez</h2>
+                      <p class="text-sm text-slate-600">
+                        Finance Controller at MoneyMakers
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
