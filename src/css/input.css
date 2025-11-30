@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+html,
+body {
+  overflow-x: hidden;
+}
+.carousel__img {
+  position: relative;
+}
+
+.carousel__img::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 100px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #c7d2fe, #e9d5ff);
+  filter: blur(80px);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+@media (max-width: 1023px) {
+  .banner {
+    padding: 3rem 0;
+  }
+  .carousel__content {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    box-sizing: border-box;
+  }
+
+  .carousel__img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .carousel__img::before {
+    top: -200px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .client-swiper .swiper-wrapper {
+    display: inline-flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0 16px 16px;
+  }
+  .client-swiper .swiper-slide {
+    flex: 0 0 80%;
+  }
+  .client-swiper .swiper-wrapper::-webkit-scrollbar {
+    height: 6px;
+  }
+  .client-swiper .swiper-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 3px;
+  }
+}
+
+.client {
+  position: relative;
+  overflow: visible;
+}
+
+.client::before {
+  content: "";
+  position: absolute;
+  top: 3rem; 
+  right: 33%;
+  width: 24rem;   
+  height: 24rem;  
+  background: radial-gradient(circle, #e9d5ff, #c4b5fd);
+  filter: blur(5rem);
+  opacity: 0.6;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+
